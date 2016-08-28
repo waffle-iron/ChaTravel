@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 #ruby '2.2.4'
 gem 'rails', '>= 5.0.0.rc2', '< 5.1'
-gem 'mysql2', '>= 0.3.18', '< 0.5'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -13,6 +12,7 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'mysql2', '>= 0.3.18', '< 0.5'
 end
 
 group :development do
@@ -30,6 +30,6 @@ gem 'redis', '3.3.1'
 gem 'rails-controller-testing'
 
 group :production do
-  #gem 'pg',             '0.17.1'
+  gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
 end
