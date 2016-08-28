@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.4'
+#ruby '2.2.4'
 gem 'rails', '>= 5.0.0.rc2', '< 5.1'
 gem 'mysql2', '>= 0.3.18', '< 0.5'
 gem 'puma', '~> 3.0'
@@ -30,6 +30,6 @@ gem 'redis', '3.3.1'
 gem 'rails-controller-testing'
 
 group :production do
-  gem 'pg',             '0.17.1'
+  #gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
 end
