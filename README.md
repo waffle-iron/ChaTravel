@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/enpitut2016/ChaTravel.png?label=ready&title=Ready)](https://waffle.io/enpitut2016/ChaTravel)
 # ChaTravel
 
 LP http://chattravel.kickoffpages.com/
